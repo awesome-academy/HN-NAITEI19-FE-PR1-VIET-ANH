@@ -1,0 +1,39 @@
+/* header */
+.auth > li {
+  font-size: 14px;
+  height: 100%;
+  font-weight: 700;
+}
+.search-icon {
+  font-size: 20px;
+  top: 26% !important;
+  right: 5% !important;
+  position: absolute;
+}
+.header-third {
+  padding: 0 !important;
+  background-color: black;
+  color: white;
+}
+.header-third__menu > li {
+  padding: 30px;
+}
+.header-third__menu > li > a {
+  color: white !important;
+  font-size: 18px !important;
+  font-weight: 600;
+}
+.cart-icon > span {
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  vertical-align: top;
+  width: 24px;
+  top: -5px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end header */
+
