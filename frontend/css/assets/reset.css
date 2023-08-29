@@ -1,0 +1,88 @@
+/* reset.css */
+
+/* Làm cho tất cả các phần tử không có giới hạn biên giới và padding */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /* Phù hợp với hộp mô hình tiêu chuẩn */
+  }
+  
+  /* Đặt giá trị mặc định cho font và color */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Loại bỏ định dạng liên kết mặc định */
+  a {
+    text-decoration: none!important;
+    color: #333!important;
+  }
+  
+  /* Loại bỏ định dạng danh sách mặc định */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Thiết lập giá trị mặc định cho tiêu đề */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  
+  /* Thiết lập giá trị mặc định cho phần tử thẻ đoạn */
+  p {
+    margin-bottom: 1em;
+  }
+  
+  /* Loại bỏ định dạng mặc định cho các phần tử inline */
+  strong, em {
+    font-weight: normal;
+  }
+  
+  /* Đặt các giá trị mặc định cho hình ảnh */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Thiết lập các giá trị mặc định cho bảng */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Loại bỏ định dạng mặc định cho mục danh sách */
+  li {
+    margin-bottom: 0;
+
+  }
+  
+  /* Đặt giá trị mặc định cho các phần tử form */
+  input, textarea {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+  }
+  
+  /* Đặt giá trị mặc định cho phần tử button */
+  button {
+    padding: 0.5em 1em;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  /* Đặt giá trị mặc định cho phần tử blockquote */
+  blockquote {
+    margin: 0;
+    padding: 1em;
+    border-left: 3px solid #ccc;
+  }
+  ul,li{
+    margin: 0;
+  }
+
+
+  
