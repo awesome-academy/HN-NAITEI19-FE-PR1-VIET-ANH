@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/assets/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="../css/assets/fontawesome-free-6.4.2-web/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="header-first container d-flex navbar-expand-sm">
+        <ul class="list__icon navbar-nav flex-row">
+          <li class="nav-item active bg-warning">
+            <a href="#" class="nav-link mx-1">
+              <img
+                class="justify-content-center"
+                src="../img/icon/facebook-icon.png"
+                alt=""
+                height="22"
+                width="24"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link mx-1">
+              <img
+                src="../img/icon/google-icon.png"
+                alt=""
+                height="22"
+                width="24"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link mx-1">
+              <img
+                src="../img/icon/instagram-icon.png"
+                alt=""
+                height="22"
+                width="24"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link mx-1">
+              <img src="../img/icon/x-icon.png" alt="" height="2" width="24" />
+            </a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navLink"
+          class="navbar-toggler ms-auto"
+          aria-controls="navLink"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <img
+            src="../img/icon/drop-down-menu-icon.png"
+            alt=""
+            height="22"
+            width="24"
+          />
+        </button>
+        <div class="account__login collapse navbar-collapse" id="navLink">
+          <ul class="auth navbar-nav ms-auto h-100" id="">
+            <li class="nav-item px-3 border border-bottom-0 border-top-0">
+              <a class="nav-link" href="#">Đăng nhập</a>
+            </li>
+            <li class="nav-item px-3 border-end">
+              <a class="nav-link" href="#">Đăng ký</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="m-0" />
+      <nav class="header-second navbar navbar-expand-sm container">
+        <a href="#" class="navbar-brand mb-0 h1 logo__text">
+          <img
+            class="d-line-block"
+            src="../img/icon/logo.png"
+            alt="Logo nè"
+            width="100"
+            height="100"
+          />
+        </a>
+        <div class="row w-100">
+          <div class="col-3"></div>
+          <ul class="navbar-nav ms-auto col-9">
+            <li class="nav-item w-100">
+              <p>
+                <span class="text-warning">HOTLINE:</span> <br />
+                (04) 9500 9600 - (04) 9500 8850
+              </p>
+            </li>
+            <li class="nav-item w-100">
+              <p>
+                <span class="text-warning">ĐẶT HÀNG NHANH:</span> <br />
+                (04) 9500 9600 - (04) 9500 8850
+              </p>
+            </li>
+            <li class="nav-item w-100 position-relative">
+              <div class="d-flex form-inputs mt-2">
+                <input
+                  class="form-control rounded-pill"
+                  type="text"
+                  placeholder="Tìm kiếm..."
+                  aria-label="Search"
+                />
+                <i class="bx bx-search search-icon"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="m-0" />
+      <nav
+        class="header-third navbar navbar-expand-sm navbar-dark container-fluid"
+      >
+        <div class="container">
+          <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navLink"
+            class="navbar-toggler"
+            aria-controls="navLink"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navLink">
+            <ul class="navbar-nav header-third__menu">
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Trang chủ </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link"> Giới thiệu</a>
+              </li>
+              <li class="nav-item active bg-warning">
+                <a href="#" class="nav-link"> Sản phẩm </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Tin khuyến mại </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Dịch vụ </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Liên hệ </a>
+              </li>
+            </ul>
+          </div>
+          <div class="cart-icon position-relative">
+            <img
+              src="../img/icon/shopping-cart-icon.png"
+              alt=""
+              height="22"
+              width="24"
+            />
+            <span class="rounded-circle bg-warning">0</span>
+          </div>
+        </div>
+      </nav>
+      <hr class="m-0" />
+      <nav class="nav">
+        <div class="container d-flex nav__navigate">
+          <span>
+            Trang chủ
+            <i class="fa-solid fa-caret-right"></i>
+          </span>
+          <p>Đăng nhập</p>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="register__title">THÔNG TIN ĐĂNG NHẬP</div>
+          <div class="info__name d-flex flex-column">
+            <label for="name" class="mb-2"
+              >Họ và tên: <span class="text-danger">*</span></label
+            >
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nhập họ và tên"
+            />
+          </div>
+          <div class="info__name d-flex flex-column">
+            <label for="email" class="mb-2"
+              >Email: <span class="text-danger">*</span></label
+            >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Nhập email"
+            />
+          </div>
+          <div class="remember d-flex">
+            <input type="checkbox" class="me-2" />
+            <label for="checkbox">Ghi nhớ đăng nhập</label>
+            <a href="#" class="text-warning">Bạn quên mật khẩu?</a>
+          </div>
+          <form action="">
+            <button class="btn btn-dark text-white mt-5">ĐĂNG NHẬP</button>
+          </form>
+        </div>
+        <div class="col-sm-6">
+          <div class="register__title">BẠN CHƯA CÓ TÀI KHOẢN</div>
+          <p class="text-secondary my-5">
+            Đăng kí tài khoản để mua hàng nhanh hơn. Theo dõi đơn đặt hàng, vận
+            chuyển. Cập nhật các tin tức sự kiên và các chường trình giảm giá
+            của chúng tôi
+          </p>
+          <form action="../html/register.html">
+            <button class="btn btn-warning text-white">ĐĂNG NHẬP</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <section class="footer my-sm-5">
+      <!-- about footer -->
+      <footer class="container">
+        <div class="footer__intro d-flex">
+          <ul class="d-sm-flex">
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                VỀ CHÚNG TÔI
+              </div>
+              <div class="footer__intro__about">
+                <p>
+                  Công ty Cổ phần Công nghệ DKT đã và đang khẳng định được vị
+                  trí hàng đầu trong lĩnh vực THương mại điện tử
+                </p>
+              </div>
+              <div class="footer__intro__content">
+                <ul class="footer__intro__content">
+                  <li>
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    Tầng 4 - Toà nhà Hanoi Group 442 Đội Cấn Ba Đình - Hà Nội
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa-regular fa-envelope"></i>
+                    </span>
+                    support@dkt.com.vn
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa-solid fa-mobile"></i>
+                    </span>
+                    (84-4) 6674 2332 (HN) - (84-8) 6299 1211 (HCM)
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                CHÍNH SÁCH
+              </div>
+              <div class="footer__intro__content">
+                <ul>
+                  <li><a href="">Chính sách giao hàng</a></li>
+                  <li><a href="">Chính sách đổi sản phẩm</a></li>
+                  <li><a href="">Chính sách bảo hành</a></li>
+                  <li><a href="">Chính sách trả góp</a></li>
+                  <li><a href="">Giới thiệu hàng đổi trả</a></li>
+                  <li><a href="">Vận chuyển miễn phí</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                DỊCH VỤ & HỖ TRỢ
+              </div>
+              <div class="footer__intro__content">
+                <ul>
+                  <li><a href="">Hệ thống cửa hàng</a></li>
+                  <li><a href="">Hướng dẫn mua hàng</a></li>
+                  <li><a href="">Hướng dẫn thanh toán</a></li>
+                  <li><a href="">Tích điểm đổi thưởng</a></li>
+                  <li><a href="">Dịch vụ đổi trả hàng</a></li>
+                  <li><a href="">Câu hỏi thường gặp</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                TIN TỨC - SỰ KIỆN
+              </div>
+              <div class="footer__intro__content">
+                <ul>
+                  <li><a href="">Tin tức mới nhất</a></li>
+                  <li><a href="">Hướng dẫn mua hàng</a></li>
+                  <li><a href="">Hướng dẫn thanh toán</a></li>
+                  <li><a href="">Tích điểm đổi thưởng</a></li>
+                  <li><a href="">Dịch vụ đổi trả hàng</a></li>
+                  <li><a href="">Câu hỏi thường gặp</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                KẾT NỐI
+              </div>
+              <div class="footer__intro__content">
+                <ul>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        Facebook
+                      </span></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-twitter"></i>
+                        Twitter
+                      </span></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                        Google
+                      </span></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-skype"></i>
+                        Skype
+                      </span></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-instagram"></i>
+                        Instagram
+                      </span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="footer__end row">
+          <div class="col-sm-6 row payment footer__end__content">
+            <p>Thanh toán:</p>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-1.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-2.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-3.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-4.png" alt="" />
+            </div>
+            <div class="my-1"></div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-5.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-6.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-7.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-8.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 row contact__quickly footer__end__content">
+            <p>Giải đáp nhanh:</p>
+            <div class="col-sm-6 d-flex content__icon">
+              <span class="text-warning">
+                <i class="fa-solid fa-phone"></i>
+              </span>
+              <div>
+                <p class="title">Tư vấn miễn phí (24/7)</p>
+                <p class="text-danger phone__number fw-bolder">1900 650 650</p>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex content__icon">
+              <span class="text-warning">
+                <i class="fa-solid fa-comments"></i>
+              </span>
+              <div>
+                <p class="title">Góp ý - phản hồi - thắc mắc</p>
+                <p class="text-danger phone__number fw-bolder">1900 650 650</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- bootstrap -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

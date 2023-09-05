@@ -11,7 +11,7 @@
   /* Đặt giá trị mặc định cho font và color */
   body {
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 14px!important;
     line-height: 1.5;
     color: #333;
   }
@@ -89,5 +89,3 @@
     padding: 0!important;
   }
 
-
-  
