@@ -481,20 +481,20 @@
 /* end grid */
 /* END LIST */
 /* REGISTER */
-.info__name>label {
-  display: inline-block!important;
-  vertical-align: middle!important;
+.info__name > label {
+  display: inline-block !important;
+  vertical-align: middle !important;
 }
-.info__name>input{
-  margin-bottom: 16px!important;
+.info__name > input {
+  margin-bottom: 16px !important;
 }
-form>button{
-  font-size: 14px!important;
+form > button {
+  font-size: 14px !important;
 }
-.register__title{
-  font-size: 24px!important;
-  font-weight: 700!important;
-  margin-bottom: 20px!important;
+.register__title {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px !important;
 }
 /* END REGISTER */
 /* LOGIN */
@@ -510,3 +510,220 @@ form>button{
   margin-left: auto; /* Đẩy "Bạn quên mật khẩu?" xuống cuối */
 }
 /* END LOGIN */
+/* DETAIL PRODUCT */
+.intro__star {
+  font-size: 12px !important;
+}
+.intro__star .count {
+  border-right: 2px solid gray !important;
+  padding-right: 10px !important;
+}
+.intro__star > div > a {
+  text-decoration: underline !important;
+  color: black;
+  font-weight: 500;
+}
+.cost__span {
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid gray !important;
+  margin-bottom: 20px !important;
+}
+.cost__span > span {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: red !important;
+  margin-top: 15px !important;
+}
+.product__info > span {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: black !important;
+}
+.product__info > p {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: gray !important;
+  margin-top: 10px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid gray !important;
+}
+#first__selected {
+  color: gray !important;
+}
+.select__size {
+  position: relative !important;
+}
+#select-icon {
+  color: gray !important;
+  position: absolute !important;
+  right: 10% !important;
+  top: 55% !important;
+}
+.select__group {
+  padding-bottom: 15px !important;
+  border-bottom: 1px solid gray !important;
+}
+.counter__box {
+  height: 40px !important;
+}
+.counter__box__counter {
+  width: 70% !important;
+  padding-top: 20px !important;
+}
+.button__count {
+  border-bottom: none;
+}
+
+.counter__box__counter > input {
+  font-size: 16px !important;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50% !important;
+}
+
+.social {
+  margin-top: 60px !important;
+}
+.button-container {
+  display: flex;
+  width: 75% !important;
+}
+.product__obj__info__header {
+  border-bottom: 1px groove gray !important;
+}
+.button-container button {
+  width: auto !important;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-size: 14px !important;
+  border: 1px groove gray;
+  cursor: pointer;
+  padding: 20px 35px !important;
+  font-weight: 700;
+}
+.active-button {
+  background-color: black !important; /* Màu của nút được ấn */
+  color: rgb(247, 191, 10) !important; /* Màu chữ của nút được ấn */
+}
+.content {
+  display: none;
+  margin-top: 50px !important;
+}
+.content.active {
+  display: block;
+  font-size: 12px !important;
+  color: gray !important;
+  text-align: justify;
+}
+.same__product {
+  margin-top: 200px !important;
+}
+/* END DETAIL PRODUCT */
+/* BLOG */
+.tags__card {
+  max-width: 100% !important;
+  display: flex !important;
+  flex-wrap: wrap;
+}
+.button__tags > button {
+  font-size: 12px !important;
+  color: gray !important;
+  background-color: white !important;
+  margin-right: 5px !important;
+  padding: 10px 20px !important;
+  font-style: italic;
+}
+.news {
+  margin-bottom: 100px !important;
+}
+.news__img > img {
+  width: 120% !important;
+  height: 120% !important;
+}
+.news__title {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  margin: 20px 0px !important;
+}
+.news__info {
+  font-size: 14px !important;
+  margin-bottom: 20px !important;
+  font-style: italic;
+}
+.info__day {
+  color: gray !important;
+  margin-right: 30px !important;
+  font-weight: 400 !important;
+}
+.info__author {
+  color: gray !important;
+  font-weight: 500 !important;
+  margin-right: 30px !important;
+}
+.info__author > span > span {
+  color: rgb(247, 191, 10) !important;
+}
+.info__comments {
+  color: gray !important;
+  font-weight: 500 !important;
+  margin-right: 30px !important;
+}
+.news__detail {
+  color: gray !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  text-align: justify;
+}
+.news__detail > p > span > a {
+  font-weight: 700 !important;
+  color: rgb(247, 191, 10) !important;
+}
+.news__end {
+  margin-top: 100px !important;
+}
+.news__detail__img {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 20px !important;
+}
+.news__end__tags {
+  font-style: italic;
+}
+.news__end__share__list > a {
+  width: 25px !important;
+  height: 25px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.comment__time {
+  color: gray !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-style: italic;
+}
+.comment__time > a {
+  color: rgb(247, 191, 10) !important;
+  font-weight: 500 !important;
+  text-decoration: underline!important;
+}
+.comment__content{
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  text-align: justify;
+  color: gray !important;
+  font-style: italic;
+}
+.sub__comment{
+  margin-left: 100px !important;
+}
+.comments__title{
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px !important;
+}
+/* END BLOG */

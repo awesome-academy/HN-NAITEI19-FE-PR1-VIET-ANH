@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/assets/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="../css/assets/fontawesome-free-6.4.2-web/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="header-first container d-flex navbar-expand-sm">
+        <ul class="list__icon navbar-nav flex-row">
+          <li class="nav-item active bg-warning">
+            <a href="#" class="nav-link mx-1">
+              <img
+                class="justify-content-center"
+                src="../img/icon/facebook-icon.png"
+                alt=""
+                height="22"
+                width="24"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link mx-1">
+              <img
+                src="../img/icon/google-icon.png"
+                alt=""
+                height="22"
+                width="24"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link mx-1">
+              <img
+                src="../img/icon/instagram-icon.png"
+                alt=""
+                height="22"
+                width="24"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link mx-1">
+              <img src="../img/icon/x-icon.png" alt="" height="2" width="24" />
+            </a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navLink"
+          class="navbar-toggler ms-auto"
+          aria-controls="navLink"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <img
+            src="../img/icon/drop-down-menu-icon.png"
+            alt=""
+            height="22"
+            width="24"
+          />
+        </button>
+        <div class="account__login collapse navbar-collapse" id="navLink">
+          <ul class="auth navbar-nav ms-auto h-100" id="">
+            <li class="nav-item px-3 border border-bottom-0 border-top-0">
+              <a class="nav-link" href="#">Đăng nhập</a>
+            </li>
+            <li class="nav-item px-3 border-end">
+              <a class="nav-link" href="#">Đăng ký</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="m-0" />
+      <nav class="header-second navbar navbar-expand-sm container">
+        <a href="#" class="navbar-brand mb-0 h1 logo__text">
+          <img
+            class="d-line-block"
+            src="../img/icon/logo.png"
+            alt="Logo nè"
+            width="100"
+            height="100"
+          />
+        </a>
+        <div class="row w-100">
+          <div class="col-3"></div>
+          <ul class="navbar-nav ms-auto col-9">
+            <li class="nav-item w-100">
+              <p>
+                <span class="text-warning">HOTLINE:</span> <br />
+                (04) 9500 9600 - (04) 9500 8850
+              </p>
+            </li>
+            <li class="nav-item w-100">
+              <p>
+                <span class="text-warning">ĐẶT HÀNG NHANH:</span> <br />
+                (04) 9500 9600 - (04) 9500 8850
+              </p>
+            </li>
+            <li class="nav-item w-100 position-relative">
+              <div class="d-flex form-inputs mt-2">
+                <input
+                  class="form-control rounded-pill"
+                  type="text"
+                  placeholder="Tìm kiếm..."
+                  aria-label="Search"
+                />
+                <i class="bx bx-search search-icon"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="m-0" />
+      <nav
+        class="header-third navbar navbar-expand-sm navbar-dark container-fluid"
+      >
+        <div class="container">
+          <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navLink"
+            class="navbar-toggler"
+            aria-controls="navLink"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navLink">
+            <ul class="navbar-nav header-third__menu">
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Trang chủ </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link"> Giới thiệu</a>
+              </li>
+              <li class="nav-item active bg-warning">
+                <a href="#" class="nav-link"> Sản phẩm </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Tin khuyến mại </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Dịch vụ </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Liên hệ </a>
+              </li>
+            </ul>
+          </div>
+          <div class="cart-icon position-relative">
+            <img
+              src="../img/icon/shopping-cart-icon.png"
+              alt=""
+              height="22"
+              width="24"
+            />
+            <span class="rounded-circle bg-warning">0</span>
+          </div>
+        </div>
+      </nav>
+      <hr class="m-0" />
+      <nav class="nav">
+        <div class="container d-flex nav__navigate">
+          <span>
+            Trang chủ
+            <i class="fa-solid fa-caret-right"></i>
+          </span>
+          <p>Tin tức</p>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="row">
+        <section class="col-md-3 filter pe-4">
+          <div class="filter__bar navbar navbar-expand-sm mb-2">
+            <button
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navLink"
+              class="navbar-toggler w-100 bg-dark text-warning"
+              aria-controls="navLink"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="mx-3">
+                <img
+                  src="../img/icon/window-warning.png"
+                  alt=""
+                  height="8"
+                  width="8"
+                />
+              </span>
+              DANH MỤC SẢN PHẨM
+              <span class="ms-auto">
+                <i class="fa-solid fa-sort-down"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLink">
+              <ul class="filter__bar w-100">
+                <li class="nav-item active bg-dark text-warning nav-link">
+                  <span>
+                    <i class="fa-solid fa-bars"></i>
+                  </span>
+                  DANH MỤC SẢN PHẨM
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Máy in phin khổ lớn
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Máy quét Canon 3D
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Máy hàn điện Alunima
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Máy khoan Decamete
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Máy phay đa năng CNC
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Máy mài, tiện DC 12V
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Máy khoan cắt CNC
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Máy quay thông minh N3
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Motor R34C đa dụng
+                </li>
+                <li class="nav-item">
+                  <span>
+                    <img
+                      src="../img/icon/window-grey.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  Máy in laser màu 3D
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--  -->
+          <div class="filter__bar navbar navbar-expand-sm mb-2">
+            <button
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navLink"
+              class="navbar-toggler w-100 bg-dark text-warning"
+              aria-controls="navLink"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="mx-3">
+                <i class="fa-solid fa-dollar-sign text-warning"></i>
+              </span>
+              TÌM THEO MỨC GIÁ
+              <span class="ms-auto">
+                <i class="fa-solid fa-sort-down"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLink">
+              <ul class="filter__bar w-100">
+                <li
+                  class="nav-item active text-dark nav-link border-bottom border-warning"
+                >
+                  <span>
+                    <img
+                      src="../img/icon/window-warning.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  DANH MỤC TIN
+                </li>
+                <li class="nav-item">Đời sống pháp luật(45)</li>
+                <li class="nav-item">Kinh tế trong nước(45)</li>
+                <li class="nav-item">Kinh tế quốc tế(45)</li>
+                <li class="nav-item">Thời trang(45)</li>
+                <li class="nav-item">Công nghệ thông tin(45)</li>
+              </ul>
+            </div>
+          </div>
+          <!--  -->
+          <div class="filter__bar navbar navbar-expand-sm mb-2">
+            <button
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navLink"
+              class="navbar-toggler w-100 bg-dark text-warning"
+              aria-controls="navLink"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="mx-3">
+                <i class="fa-solid fa-dollar-sign text-warning"></i>
+              </span>
+              TÌM THEO MỨC GIÁ
+              <span class="ms-auto">
+                <i class="fa-solid fa-sort-down"></i>
+              </span>
+            </button>
+            <div
+              class="collapse navbar-collapse d-flex flex-column"
+              id="navLink"
+            >
+              <ul class="filter__bar w-100">
+                <li
+                  class="nav-item active text-dark nav-link border-bottom border-warning"
+                >
+                  <span>
+                    <img
+                      src="../img/icon/window-warning.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  THƯ VIỆN ẢNH
+                </li>
+              </ul>
+              <div class="img__list row">
+                <div class="col-4 mb-2">
+                  <img src="../img/blog/library-1.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="../img/blog/library-2.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="../img/blog/library-3.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="../img/blog/library-4.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="../img/blog/library-5.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="../img/blog/library-6.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="filter__bar navbar navbar-expand-sm mb-2">
+            <button
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navLink"
+              class="navbar-toggler w-100 bg-dark text-warning"
+              aria-controls="navLink"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="mx-3">
+                <i class="fa-solid fa-dollar-sign text-warning"></i>
+              </span>
+              TÌM THEO MỨC GIÁ
+              <span class="ms-auto">
+                <i class="fa-solid fa-sort-down"></i>
+              </span>
+            </button>
+            <div
+              class="collapse navbar-collapse d-flex flex-column"
+              id="navLink"
+            >
+              <ul class="filter__bar w-100">
+                <li
+                  class="nav-item active text-dark nav-link border-bottom border-warning"
+                >
+                  <span>
+                    <img
+                      src="../img/icon/window-warning.png"
+                      alt=""
+                      height="8"
+                      width="8"
+                    />
+                  </span>
+                  THẺ TAGS
+                </li>
+              </ul>
+              <div class="tags__card">
+                <div class="button__tag bg-dark text-white">
+                  <button class="bg-dark text-white">
+                    <span>thời trang</span>
+                  </button>
+                </div>
+                <div class="button__tags">
+                  <button>
+                    <span>máy khoan</span>
+                  </button>
+                </div>
+                <div class="button__tags">
+                  <button>
+                    <span>news</span>
+                  </button>
+                </div>
+                <div class="button__tags">
+                  <button>
+                    <span>công nghiệp</span>
+                  </button>
+                </div>
+                <div class="button__tags">
+                  <button>
+                    <span>xây dựng</span>
+                  </button>
+                </div>
+                <div class="button__tags">
+                  <button>
+                    <span>phay</span>
+                  </button>
+                </div>
+                <div class="button__tags">
+                  <button>
+                    <span>máy cắt</span>
+                  </button>
+                </div>
+                <div class="button__tags">
+                  <button>
+                    <span>hoá chất</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- detail -->
+        <section class="col-9 filter__detail mt-2">
+          <div class="news">
+            <div class="news__img">
+              <img src="../img/blog/news-1.png" alt="" />
+            </div>
+            <h3 class="news__title">
+              THẾ HỆ MÁY KHOAN CẮT CNC ĐẦU TIÊN ĐÃ ĐƯỢC TÁI SỬ DỤNG
+            </h3>
+            <div class="news__info d-flex">
+              <div class="info__day">
+                Thứ năm, ngày 30 tháng 9 năm 2021 10:00:00 AM
+              </div>
+              <div class="info__author">
+                <span
+                  ><i class="fa-solid fa-user"></i>Đăng bởi
+                  <span>Design Team</span></span
+                >
+              </div>
+              <div class="info__comments">
+                <span><i class="fa-solid fa-comment"></i>12 Bình luận</span>
+              </div>
+            </div>
+            <div class="news__detail">
+              <p>
+                But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system, and expound the actual
+                teachings of the great explorer of the truth, the master-builder
+                of human happiness. No one rejects, dislikes, or avoids pleasure
+                itself, because it is pleasure, but because those who do not
+                know how to pursue pleasure rationally encounter consequences
+                that are extremely painful. Nor again is there anyone who loves
+                or pursues or desires to obtain pain of itself, because it is
+                pain, but because occasionally circumstances occur in which toil
+                and pain can procure him some great pleasure...
+                <span><a href="blogdetail.html">[Đọc tiếp]</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="news">
+            <div class="news__img">
+              <img src="../img/blog/news-1.png" alt="" />
+            </div>
+            <h3 class="news__title">
+              THẾ HỆ MÁY KHOAN CẮT CNC ĐẦU TIÊN ĐÃ ĐƯỢC TÁI SỬ DỤNG
+            </h3>
+            <div class="news__info d-flex">
+              <div class="info__day">
+                Thứ năm, ngày 30 tháng 9 năm 2021 10:00:00 AM
+              </div>
+              <div class="info__author">
+                <span
+                  ><i class="fa-solid fa-user"></i>Đăng bởi
+                  <span>Design Team</span></span
+                >
+              </div>
+              <div class="info__comments">
+                <span><i class="fa-solid fa-comment"></i>12 Bình luận</span>
+              </div>
+            </div>
+            <div class="news__detail">
+              <p>
+                But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system, and expound the actual
+                teachings of the great explorer of the truth, the master-builder
+                of human happiness. No one rejects, dislikes, or avoids pleasure
+                itself, because it is pleasure, but because those who do not
+                know how to pursue pleasure rationally encounter consequences
+                that are extremely painful. Nor again is there anyone who loves
+                or pursues or desires to obtain pain of itself, because it is
+                pain, but because occasionally circumstances occur in which toil
+                and pain can procure him some great pleasure...
+                <span><a href="blogdetail.html">[Đọc tiếp]</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="news">
+            <div class="news__img">
+              <img src="../img/blog/news-1.png" alt="" />
+            </div>
+            <h3 class="news__title">
+              THẾ HỆ MÁY KHOAN CẮT CNC ĐẦU TIÊN ĐÃ ĐƯỢC TÁI SỬ DỤNG
+            </h3>
+            <div class="news__info d-flex">
+              <div class="info__day">
+                Thứ năm, ngày 30 tháng 9 năm 2021 10:00:00 AM
+              </div>
+              <div class="info__author">
+                <span
+                  ><i class="fa-solid fa-user"></i>Đăng bởi
+                  <span>Design Team</span></span
+                >
+              </div>
+              <div class="info__comments">
+                <span><i class="fa-solid fa-comment"></i>12 Bình luận</span>
+              </div>
+            </div>
+            <div class="news__detail">
+              <p>
+                But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system, and expound the actual
+                teachings of the great explorer of the truth, the master-builder
+                of human happiness. No one rejects, dislikes, or avoids pleasure
+                itself, because it is pleasure, but because those who do not
+                know how to pursue pleasure rationally encounter consequences
+                that are extremely painful. Nor again is there anyone who loves
+                or pursues or desires to obtain pain of itself, because it is
+                pain, but because occasionally circumstances occur in which toil
+                and pain can procure him some great pleasure...
+                <span><a href="blogdetail.html">[Đọc tiếp]</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="news">
+            <div class="news__img">
+              <img src="../img/blog/news-1.png" alt="" />
+            </div>
+            <h3 class="news__title">
+              THẾ HỆ MÁY KHOAN CẮT CNC ĐẦU TIÊN ĐÃ ĐƯỢC TÁI SỬ DỤNG
+            </h3>
+            <div class="news__info d-flex">
+              <div class="info__day">
+                Thứ năm, ngày 30 tháng 9 năm 2021 10:00:00 AM
+              </div>
+              <div class="info__author">
+                <span
+                  ><i class="fa-solid fa-user"></i>Đăng bởi
+                  <span>Design Team</span></span
+                >
+              </div>
+              <div class="info__comments">
+                <span><i class="fa-solid fa-comment"></i>12 Bình luận</span>
+              </div>
+            </div>
+            <div class="news__detail">
+              <p>
+                But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system, and expound the actual
+                teachings of the great explorer of the truth, the master-builder
+                of human happiness. No one rejects, dislikes, or avoids pleasure
+                itself, because it is pleasure, but because those who do not
+                know how to pursue pleasure rationally encounter consequences
+                that are extremely painful. Nor again is there anyone who loves
+                or pursues or desires to obtain pain of itself, because it is
+                pain, but because occasionally circumstances occur in which toil
+                and pain can procure him some great pleasure...
+                <span><a href="blogdetail.html">[Đọc tiếp]</a></span>
+              </p>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
+                  >Trang trước</a
+                >
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Trang cuối</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </main>
+    <section class="footer my-sm-5">
+      <!-- about footer -->
+      <footer class="container">
+        <div class="footer__intro d-flex">
+          <ul class="d-sm-flex">
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                VỀ CHÚNG TÔI
+              </div>
+              <div class="footer__intro__about">
+                <p>
+                  Công ty Cổ phần Công nghệ DKT đã và đang khẳng định được vị
+                  trí hàng đầu trong lĩnh vực THương mại điện tử
+                </p>
+              </div>
+              <div class="footer__intro__content">
+                <ul class="footer__intro__content">
+                  <li>
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    Tầng 4 - Toà nhà Hanoi Group 442 Đội Cấn Ba Đình - Hà Nội
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa-regular fa-envelope"></i>
+                    </span>
+                    support@dkt.com.vn
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa-solid fa-mobile"></i>
+                    </span>
+                    (84-4) 6674 2332 (HN) - (84-8) 6299 1211 (HCM)
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                CHÍNH SÁCH
+              </div>
+              <div class="footer__intro__content">
+                <ul>
+                  <li><a href="">Chính sách giao hàng</a></li>
+                  <li><a href="">Chính sách đổi sản phẩm</a></li>
+                  <li><a href="">Chính sách bảo hành</a></li>
+                  <li><a href="">Chính sách trả góp</a></li>
+                  <li><a href="">Giới thiệu hàng đổi trả</a></li>
+                  <li><a href="">Vận chuyển miễn phí</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                DỊCH VỤ & HỖ TRỢ
+              </div>
+              <div class="footer__intro__content">
+                <ul>
+                  <li><a href="">Hệ thống cửa hàng</a></li>
+                  <li><a href="">Hướng dẫn mua hàng</a></li>
+                  <li><a href="">Hướng dẫn thanh toán</a></li>
+                  <li><a href="">Tích điểm đổi thưởng</a></li>
+                  <li><a href="">Dịch vụ đổi trả hàng</a></li>
+                  <li><a href="">Câu hỏi thường gặp</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                TIN TỨC - SỰ KIỆN
+              </div>
+              <div class="footer__intro__content">
+                <ul>
+                  <li><a href="">Tin tức mới nhất</a></li>
+                  <li><a href="">Hướng dẫn mua hàng</a></li>
+                  <li><a href="">Hướng dẫn thanh toán</a></li>
+                  <li><a href="">Tích điểm đổi thưởng</a></li>
+                  <li><a href="">Dịch vụ đổi trả hàng</a></li>
+                  <li><a href="">Câu hỏi thường gặp</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="footer__intro__title">
+                <span>
+                  <img
+                    src="../img/icon/window-warning.png"
+                    alt=""
+                    height="8"
+                    width="8"
+                  />
+                </span>
+                KẾT NỐI
+              </div>
+              <div class="footer__intro__content">
+                <ul>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        Facebook
+                      </span></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-twitter"></i>
+                        Twitter
+                      </span></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                        Google
+                      </span></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-skype"></i>
+                        Skype
+                      </span></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><span>
+                        <i class="fa-brands fa-instagram"></i>
+                        Instagram
+                      </span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="footer__end row">
+          <div class="col-sm-6 row payment footer__end__content">
+            <p>Thanh toán:</p>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-1.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-2.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-3.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-4.png" alt="" />
+            </div>
+            <div class="my-1"></div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-5.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-6.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-7.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="../img/icon/bank-img-8.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 row contact__quickly footer__end__content">
+            <p>Giải đáp nhanh:</p>
+            <div class="col-sm-6 d-flex content__icon">
+              <span class="text-warning">
+                <i class="fa-solid fa-phone"></i>
+              </span>
+              <div>
+                <p class="title">Tư vấn miễn phí (24/7)</p>
+                <p class="text-danger phone__number fw-bolder">1900 650 650</p>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex content__icon">
+              <span class="text-warning">
+                <i class="fa-solid fa-comments"></i>
+              </span>
+              <div>
+                <p class="title">Góp ý - phản hồi - thắc mắc</p>
+                <p class="text-danger phone__number fw-bolder">1900 650 650</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- bootstrap -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
