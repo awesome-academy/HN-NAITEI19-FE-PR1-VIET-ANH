@@ -140,14 +140,14 @@
           </button>
           <div class="collapse navbar-collapse" id="navLink">
             <ul class="navbar-nav header-third__menu">
-              <li class="nav-item active bg-warning">
+              <li class="nav-item">
                 <a href="home.html" class="nav-link"> Trang chủ </a>
               </li>
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link"> Giới thiệu</a>
               </li>
-              <li class="nav-item ">
-                <a href="list.html" class="nav-link"> Sản phẩm </a>
+              <li class="nav-item active bg-warning">
+                <a href="#" class="nav-link"> Sản phẩm </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link"> Tin khuyến mại </a>
@@ -178,55 +178,28 @@
             Trang chủ
             <i class="fa-solid fa-caret-right"></i>
           </span>
-          <p>Đăng nhập</p>
+          <p>Danh mục sản phẩm</p>
         </div>
       </nav>
     </header>
     <main class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <div class="register__title">THÔNG TIN ĐĂNG NHẬP</div>
-          <div class="info__name d-flex flex-column">
-            <label for="name" class="mb-2"
-              >Họ và tên: <span class="text-danger">*</span></label
-            >
+        <div class="col-5 error">
+          <h2 class="error__title">404 ERROR</h2>
+          <p class="error__content">
+            Chúng tôi không tìm thấy kể quả nào phù hợp với tìm kiếm của bạn vui
+            lòng trở về trang chủ
+          </p>
+          <form action="home.html">
             <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Nhập họ và tên"
+              class="error__btn btn btn-dark text-white mt-2"
+              type="submit"
+              value="Trở về trang chủ"
             />
-          </div>
-          <div class="info__name d-flex flex-column">
-            <label for="email" class="mb-2"
-              >Email: <span class="text-danger">*</span></label
-            >
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Nhập email"
-            />
-          </div>
-          <div class="remember d-flex">
-            <input type="checkbox" class="me-2" />
-            <label for="checkbox">Ghi nhớ đăng nhập</label>
-            <a href="#" class="text-warning">Bạn quên mật khẩu?</a>
-          </div>
-          <form action="">
-            <button class="btn btn-dark text-white mt-5">ĐĂNG NHẬP</button>
           </form>
         </div>
-        <div class="col-sm-6">
-          <div class="register__title">BẠN CHƯA CÓ TÀI KHOẢN</div>
-          <p class="text-secondary my-5">
-            Đăng kí tài khoản để mua hàng nhanh hơn. Theo dõi đơn đặt hàng, vận
-            chuyển. Cập nhật các tin tức sự kiên và các chường trình giảm giá
-            của chúng tôi
-          </p>
-          <form action="../html/register.html">
-            <button class="btn btn-warning text-white">ĐĂNG KÝ</button>
-          </form>
+        <div class="col-3 error__img">
+          <img src="../img/home/slider-img.png" alt="" />
         </div>
       </div>
     </main>

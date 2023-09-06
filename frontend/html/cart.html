@@ -140,14 +140,14 @@
           </button>
           <div class="collapse navbar-collapse" id="navLink">
             <ul class="navbar-nav header-third__menu">
-              <li class="nav-item active bg-warning">
+              <li class="nav-item">
                 <a href="home.html" class="nav-link"> Trang chủ </a>
               </li>
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link"> Giới thiệu</a>
               </li>
-              <li class="nav-item ">
-                <a href="list.html" class="nav-link"> Sản phẩm </a>
+              <li class="nav-item active bg-warning">
+                <a href="#" class="nav-link"> Sản phẩm </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link"> Tin khuyến mại </a>
@@ -178,55 +178,97 @@
             Trang chủ
             <i class="fa-solid fa-caret-right"></i>
           </span>
-          <p>Đăng nhập</p>
+          <p>Thanh toán</p>
         </div>
       </nav>
     </header>
     <main class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="register__title">THÔNG TIN ĐĂNG NHẬP</div>
-          <div class="info__name d-flex flex-column">
-            <label for="name" class="mb-2"
-              >Họ và tên: <span class="text-danger">*</span></label
-            >
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Nhập họ và tên"
-            />
+      <div class="cart mt-5">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">STT</th>
+              <th scope="col">SẢN PHẨM</th>
+              <th scope="col">THÔNG TIN</th>
+              <th scope="col">ĐƠN GIÁ</th>
+              <th scope="col">SỐ LƯỢNG</th>
+              <th scope="col">THÀNH TIỀN</th>
+              <th scope="col">XOÁ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col">1</td>
+              <td class="col">
+                <img src="../img/cart/cart-img-1.png" alt="" />
+              </td>
+              <td class="col">MÁY KHOAN, CẮT ĐA NĂNG CNC</td>
+              <td class="col">2.350.000 Đ</td>
+              <td class="col">1</td>
+              <td class="col">2.350.000</td>
+              <td class="col">
+                <button class="btn btn-light">
+                    <span class="text-danger"
+                      ><i class="fa-solid fa-xmark"></i
+                    ></span>
+                  </button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><img src="../img/cart/cart-img-2.png" alt="" /></td>
+              <td>MÁY KHOAN, CẮT ĐA NĂNG CNC</td>
+              <td>2.350.000 Đ</td>
+              <td>1</td>
+              <td>2.350.000</td>
+              <td>
+                <button class="btn btn-light">
+                  <span class="text-danger"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></span>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><img src="../img/cart/cart-img-3.png" alt="" /></td>
+              <td>MÁY KHOAN, CẮT ĐA NĂNG CNC</td>
+              <td>2.350.000 Đ</td>
+              <td>1</td>
+              <td>2.350.000</td>
+              <td>
+                <button class="btn btn-light">
+                    <span class="text-danger"
+                      ><i class="fa-solid fa-xmark"></i
+                    ></span>
+                  </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="total row mt-4">
+          <div class="col-8"></div>
+          <div class="col-4 row">
+            <div class="col-6 fw-bold total__text">
+              <p>TỔNG TIỀN HÀNG:</p>
+              <p>THUẾ VAT:</p>
+              <p>THANH TOÁN:</p>
+            </div>
+            <div class="col-6 fw-bold total__text">
+              <p>7.050.000 Đ</p>
+              <p>0 Đ</p>
+              <p class="text-danger pay">7.050.000 Đ</p>
+            </div>
           </div>
-          <div class="info__name d-flex flex-column">
-            <label for="email" class="mb-2"
-              >Email: <span class="text-danger">*</span></label
-            >
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Nhập email"
-            />
+          <div class="col-8"></div>
+          <div class="col-4 mt-3">
+            <button class="bg-dark me-4">
+              <span class="text-white">TIẾP TỤC MUA HÀNG</span>
+            </button>
+            <button class="bg-warning">
+              <span class="text-white">THANH TOÁN</span>
+            </button>
           </div>
-          <div class="remember d-flex">
-            <input type="checkbox" class="me-2" />
-            <label for="checkbox">Ghi nhớ đăng nhập</label>
-            <a href="#" class="text-warning">Bạn quên mật khẩu?</a>
-          </div>
-          <form action="">
-            <button class="btn btn-dark text-white mt-5">ĐĂNG NHẬP</button>
-          </form>
-        </div>
-        <div class="col-sm-6">
-          <div class="register__title">BẠN CHƯA CÓ TÀI KHOẢN</div>
-          <p class="text-secondary my-5">
-            Đăng kí tài khoản để mua hàng nhanh hơn. Theo dõi đơn đặt hàng, vận
-            chuyển. Cập nhật các tin tức sự kiên và các chường trình giảm giá
-            của chúng tôi
-          </p>
-          <form action="../html/register.html">
-            <button class="btn btn-warning text-white">ĐĂNG KÝ</button>
-          </form>
         </div>
       </div>
     </main>
