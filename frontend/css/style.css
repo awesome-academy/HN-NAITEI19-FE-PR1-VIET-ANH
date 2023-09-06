@@ -727,3 +727,25 @@ form > button {
   margin-bottom: 20px !important;
 }
 /* END BLOG */
+/* 404 PAGE */
+  .error__title{
+    font-size: 60px !important;
+    font-weight: 700 !important;
+    color: rgb(247, 191, 10);
+  }
+  .error{
+    text-align: center !important;
+  }
+  .error__content{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: gray !important;
+    margin-bottom: 20px !important;
+  }
+  .pay{
+    font-size: 18px !important;
+  }
+  .total__text{
+    border-bottom: 1px groove gray !important;
+  }
+/* END 404 PAGE */
