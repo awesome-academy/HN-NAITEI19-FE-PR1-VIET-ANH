@@ -1,88 +1,178 @@
 {
     "products": [
         {
-            "name": "Máy khoan BLACK DECKER",
+            "id" : 1,
+            "name": "Máy đục BLACK DECKER",
             "price": "1.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-1.png"
+            "url_img": "../img/grid/grid-img-1.png",
+            "category": 1
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 2,
+            "name": "Máy khoan BLACK DECKER1",
+            "price": "3.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-2.png"
+            "url_img": "../img/grid/grid-img-2.png",
+            "category": 2
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 3,
+            "name": "Máy khoan BLACK DECKER2",
+            "price": "2.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-3.png"
+            "url_img": "../img/grid/grid-img-3.png",
+            "category": 3
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 4,
+            "name": "Máy khoan BLACK DECKER3",
+            "price": "4.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-4.png"
+            "url_img": "../img/grid/grid-img-4.png",
+            "category": 4
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 5,
+            "name": "Máy khoan BLACK DECKER4",
+            "price": "5.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-5.png"
+            "url_img": "../img/grid/grid-img-5.png",
+            "category": 1
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 6,
+            "name": "Máy khoan BLACK DECKER5",
+            "price": "1.650.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-6.png"
+            "url_img": "../img/grid/grid-img-6.png",
+            "category": 2
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 7,
+            "name": "Máy khoan BLACK DECKER6",
+            "price": "1.580.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-7.png"
+            "url_img": "../img/grid/grid-img-7.png",
+            "category": 3
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 8,
+            "name": "Máy khoan BLACK DECKER7",
+            "price": "1.850.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-8.png"
+            "url_img": "../img/grid/grid-img-8.png",
+            "category": 4
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 9,
+            "name": "Máy khoan BLACK DECKER8",
+            "price": "8.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-9.png"
+            "url_img": "../img/grid/grid-img-9.png",
+            "category": 1
         },
         {
-            "name": "Máy khoan BLACK DECKER",
+            "id" : 10,
+            "name": "Máy khoan BLACK DECKER9",
             "price": "1.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-10.png"
+            "url_img": "../img/grid/grid-img-10.png",
+            "category": 2
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 11,
+            "name": "Máy khoan BLACK DECKER10",
+            "price": "3.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-11.png"
+            "url_img": "../img/grid/grid-img-11.png",
+            "category": 3
         },
         {
-            "name": "Máy khoan BLACK DECKER",
-            "price": "1.550.000",
+            "id" : 12,
+            "name": "Máy khoan BLACK DECKER11",
+            "price": "2.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-12.png"
+            "url_img": "../img/grid/grid-img-12.png",
+            "category": 4
         },
         {
-            "name": "Máy khoan BLACK DECKER",
+            "id" : 13,
+            "name": "2Máy khoan BLACK DECKER12",
             "price": "1.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-13.png"
+            "url_img": "../img/grid/grid-img-13.png",
+            "category": 1
         },
         {
+            "id" : 14,
             "name": "Máy khoan BLACK DECKER",
             "price": "1.550.000",
             "description": "This is product1",
-            "url_img": "../img/grid/grid-img-14.png"
-        }    
+            "url_img": "../img/grid/grid-img-14.png",
+            "category": 2
+        },
+        {
+            "id" : 15,
+            "name": "Máy khoan BLACK DECKER",
+            "price": "1.550.000",
+            "description": "This is product1",
+            "url_img": "../img/grid/grid-img-14.png",
+            "category": 2
+        },
+        {
+            "id" : 16,
+            "name": "Máy khoan BLACK DECKER",
+            "price": "1.550.000",
+            "description": "This is product1",
+            "url_img": "../img/grid/grid-img-13.png",
+            "category": 2
+        },
+        {
+            "id" : 17,
+            "name": "Máy khoan BLACK DECKER",
+            "price": "1.550.000",
+            "description": "This is product1",
+            "url_img": "../img/grid/grid-img-14.png",
+            "category": 2
+        },
+        {
+            "id" : 18,
+            "name": "Máy khoan BLACK DECKER",
+            "price": "1.550.000",
+            "description": "This is product1",
+            "url_img": "../img/grid/grid-img-13.png",
+            "category": 2
+        }
+    ],
+    "transaction": [
+        {
+            "products": [
+                {
+                    "name": "Máy khoan BLACK DECKER",
+                    "price": "1.550.000",
+                    "quantity": 1,
+                    "category": 1
+                },
+                {
+                    "name": "Máy khoan BLACK DECKER",
+                    "price": "1.550.000",
+                    "quantity": 1,
+                    "category": 1
+                },
+                {
+                    "name": "Máy khoan BLACK DECKER",
+                    "price": "1.550.000",
+                    "quantity": 1,
+                    "category": 1
+                }
+            ],
+            "user": {
+                "name": "Nguyễn Văn A",
+                "phone": "0123456789",
+                "address": "Hà Nội"
+            },
+            "total": "4.650.000"
+        }
     ]
 }
