@@ -167,7 +167,7 @@
               height="22"
               width="24"
             />
-            <span class="rounded-circle bg-warning">0</span>
+            <span class="rounded-circle bg-warning cart__counter">0</span>
           </div>
         </div>
       </nav>
@@ -182,7 +182,7 @@
             Danh mục sản phẩm
             <i class="fa-solid fa-caret-right"></i>
           </span>
-          <p>Máy khoan CNC 3D</p>
+          <p class="detail__header">Máy khoan CNC 3D</p>
         </div>
       </nav>
     </header>
@@ -439,7 +439,7 @@
           <div class="product__obj row mt-2">
             <div class="col-sm-6 product__image">
               <div class="image__detail mb-2">
-                <img src="../img/detail/img-detail.png" alt="" />
+                <!-- <img src="../img/detail/img-detail.png" alt="" /> -->
               </div>
               <div class="img__slider d-flex">
                 <div class="img__slider__item me-1">
@@ -460,42 +460,7 @@
               </div>
             </div>
             <div class="col-sm-6 product__intro">
-              <div class="intro__title">
-                <h3>MÁY KHOAN CẮT CNC 3D</h3>
-              </div>
-              <div class="intro__star d-flex">
-                <span class="text-warning">
-                  <i class="fa-solid fa-star"></i>
-                </span>
-                <span class="text-warning">
-                  <i class="fa-solid fa-star"></i>
-                </span>
-                <span class="text-warning">
-                  <i class="fa-solid fa-star"></i>
-                </span>
-                <span class="text-warning">
-                  <i class="fa-solid fa-star"></i>
-                </span>
-                <span class="text-warning me-1">
-                  <i class="fa-regular fa-star"></i>
-                </span>
-                <span class="text-secondary me-2 count">(12 đánh giá)</span>
-                <div>
-                  <a href="">Gửi bình luẩn của bạn</a>
-                </div>
-              </div>
-              <div class="cost__span d-flex text-danger">
-                <span class="text-danger">GNY: 2.350.000 Đ</span>
-              </div>
-              <div class="product__info">
-                <span> Thông tin sản phẩm: </span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercition ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat...
-                </p>
-              </div>
+              
               <div class="row select__group">
                 <div class="col-6 select__size d-flex flex-column">
                   <span class="mb-2 fw-bold"> Size: </span>
@@ -509,7 +474,7 @@
                     <i class="fa-solid fa-caret-down"></i>
                   </span>
                 </div>
-                <!--select color  -->
+
                 <div class="col-6 select__size d-flex flex-column">
                   <span class="mb-2 fw-bold"> Màu: </span>
                   <select name="" class="form-control" id="first__selected">
@@ -525,7 +490,7 @@
               </div>
               <div class="count__buy">
                 <div class="counter__box">
-                  <div class="counter__box__counter d-flex">
+                  <form class="counter__box__counter d-flex">
                     <input type="number" value="0" id="counter" />
                     <div class="button__count d-flex flex-column">
                       <button id="up__button">
@@ -546,7 +511,7 @@
                         ĐẶT HÀNG
                       </button>
                     </div>
-                  </div>
+                  </form>
                 </div>
               </div>
               <div class="social">
@@ -993,6 +958,7 @@
     </section>
     <!-- bootstrap -->
     <script src="../bootstrap/js/bootstrap.min.js"></script>
-    <script src="../js/pages/detail.js"></script>
+    <script type="module" src="../js/pages/detail.js"></script>
+    <script src="../js/pages/detailButton.js"></script>
   </body>
 </html>

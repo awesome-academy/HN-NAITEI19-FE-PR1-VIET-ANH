@@ -1,8 +1,8 @@
 import { fetchProducts } from "../helpers/fetch.mjs";
-import { renderGrid } from "../creators/productGrid.mjs";
+import { renderList } from "../creators/productList.mjs";
 import { getProductById } from "../helpers/findProductById.mjs";
 import { cartCounterRender } from "../creators/cartCounterRender.mjs";
-let count = 18;
+let count = 9;
 let products = [];
 window.addEventListener("load", function (e) {
   const $ = this.document.querySelector.bind(this.document);
@@ -11,15 +11,20 @@ window.addEventListener("load", function (e) {
     init: async function () {
       products = await fetchProducts();
       cartCounterRender();
-      localStorage.setItem("products", JSON.stringify(products));
       let products__temp = [...products];
+      // get 9 products
+      localStorage.setItem("products", JSON.stringify(products));
       products__temp.splice(count, products.length - count);
-      renderGrid(products__temp);
+      renderList(products__temp);
     },
     addEventListener: async function () {
       document.addEventListener("click", function (e) {
         if (e.target.matches(".detail__button")) {
+          console.log(e.target.getAttribute("data-product-id"));
           localStorage.removeItem("product");
+          console.log(
+            getProductById(+e.target.getAttribute("data-product-id"))
+          );
           localStorage.setItem(
             "product",
             JSON.stringify(
@@ -43,15 +48,16 @@ window.addEventListener("load", function (e) {
           if (products__temp.length > count) {
             products__temp.splice(count, products.length - count);
           }
-          renderGrid(products__temp);
+          renderList(products__temp);
         }
       });
+
       document.addEventListener("change", function (e) {
         if (e.target.matches(".select__quantity")) {
           count = e.target.value;
           let products__temp = [...products];
           products__temp.splice(count, products.length - count);
-          renderGrid(products__temp);
+          renderList(products__temp);
         }
 
         if (e.target.matches(".filter__select")) {
@@ -78,7 +84,8 @@ window.addEventListener("load", function (e) {
             default:
               break;
           }
-          renderGrid(products__temp);
+          console.log(products__temp);
+          renderList(products__temp);
         }
       });
     },

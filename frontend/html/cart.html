@@ -167,7 +167,7 @@
               height="22"
               width="24"
             />
-            <span class="rounded-circle bg-warning">0</span>
+            <span class="rounded-circle bg-warning cart__counter">0</span>
           </div>
         </div>
       </nav>
@@ -196,55 +196,7 @@
               <th scope="col">XOÁ</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td class="col">1</td>
-              <td class="col">
-                <img src="../img/cart/cart-img-1.png" alt="" />
-              </td>
-              <td class="col">MÁY KHOAN, CẮT ĐA NĂNG CNC</td>
-              <td class="col">2.350.000 Đ</td>
-              <td class="col">1</td>
-              <td class="col">2.350.000</td>
-              <td class="col">
-                <button class="btn btn-light">
-                    <span class="text-danger"
-                      ><i class="fa-solid fa-xmark"></i
-                    ></span>
-                  </button>
-              </td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td><img src="../img/cart/cart-img-2.png" alt="" /></td>
-              <td>MÁY KHOAN, CẮT ĐA NĂNG CNC</td>
-              <td>2.350.000 Đ</td>
-              <td>1</td>
-              <td>2.350.000</td>
-              <td>
-                <button class="btn btn-light">
-                  <span class="text-danger"
-                    ><i class="fa-solid fa-xmark"></i
-                  ></span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td><img src="../img/cart/cart-img-3.png" alt="" /></td>
-              <td>MÁY KHOAN, CẮT ĐA NĂNG CNC</td>
-              <td>2.350.000 Đ</td>
-              <td>1</td>
-              <td>2.350.000</td>
-              <td>
-                <button class="btn btn-light">
-                    <span class="text-danger"
-                      ><i class="fa-solid fa-xmark"></i
-                    ></span>
-                  </button>
-              </td>
-            </tr>
-          </tbody>
+          <tbody></tbody>
         </table>
         <div class="total row mt-4">
           <div class="col-8"></div>
@@ -255,17 +207,17 @@
               <p>THANH TOÁN:</p>
             </div>
             <div class="col-6 fw-bold total__text">
-              <p>7.050.000 Đ</p>
-              <p>0 Đ</p>
-              <p class="text-danger pay">7.050.000 Đ</p>
+              <p class="money">0 Đ</p>
+              <p class="vat">0 Đ</p>
+              <p class="text-danger pay">0 Đ</p>
             </div>
           </div>
           <div class="col-8"></div>
           <div class="col-4 mt-3">
-            <button class="bg-dark me-4">
+            <button class="bg-dark me-4 re__button">
               <span class="text-white">TIẾP TỤC MUA HÀNG</span>
             </button>
-            <button class="bg-warning">
+            <button class="bg-warning pay__button">
               <span class="text-white">THANH TOÁN</span>
             </button>
           </div>
@@ -500,5 +452,6 @@
     </section>
     <!-- bootstrap -->
     <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script type="module" src="../js/pages/cart.js"></script>
   </body>
 </html>
